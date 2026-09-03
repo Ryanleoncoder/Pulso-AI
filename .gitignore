@@ -1,0 +1,12 @@
+node_modules/
+dist/
+exports/
+.env
+.env.local
+*.local
+.DS_Store
+
+# Permissões aprovadas do Claude Code. Fora do versionamento porque o comando
+# aprovado guarda a senha do apresentador em texto puro
+# ("npm run verificar -- <senha>"), além de caminhos absolutos desta máquina.
+.claude/
